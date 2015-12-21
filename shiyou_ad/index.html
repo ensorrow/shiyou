@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>师友教辅中心</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-3.2.7.min.css">
+    <link rel="stylesheet" href="css/zhuanti.css">
+</head>
+<body>
+    <div id="header">
+    <img class="logo" src="image/logo.png" height="40" width="237" alt="">
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">        
+            <div class="swiper-slide content1" >
+                <div class="p11"><p>师友教辅中心由交大学子学姐联合创办，从事网络平台的开发与推广，志在为小学到高中各年龄段学生解决学习难题。</p></div>
+                <img class="img1" src="image/pic1.png" height="509" width="829" alt="">
+                <div class="p12"><p><em>高考榜上过来人手把手教你学习，<br>用亲身经历为你带来不一样的学习体验,学习感悟</em></p></div>
+            </div>
+        <div class="swiper-slide content2">
+            <img class="img2" src="image/pic2.png" height="689" width="1249" alt="">
+            <div class="p21"><h1>授课方式随心挑选</h1><br><p>一对一上门家教，或者来我们这里进行大小班教学<br>地址：西安交大东南门附近</p></div>
+            <div class="p22"><p><b><em>授课老师出自交大各优势专业拔尖人士，<br>授课前期进行培训，授课中接受定期考核，<br>签约期一月一结，方便家长更换教师和反馈信息</em></b></p></div>
+        </div>
+        <div class="swiper-slide content3">
+            <img class="img3" src="image/pic3.png" height="595" width="1349" alt="">
+            <div class="p31">
+                <h1>联系我们</h1><br>
+                <p>QQ群：师友教学招新群<br>群号：451490526&nbsp;&nbsp;&nbsp;<br>电话：15902967997&nbsp;&nbsp;<br>&nbsp;18292886335<br>&nbsp;18292469786</p>
+            </div>
+            <div class="p32">
+            <img src="image/ma.png" height="184" width="184" alt="">
+            <p><h3>qq扫描二维码，加入招新群</h3></p>
+            <img src="image/text.png" height="198" width="661" alt="">
+            </div>
+        </div>
+     </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+ </div>
+    <!-- Swiper JS -->
+    <script src="js/swiper-3.2.7.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical',
+        speed:1000,
+        // autoplay:5000,
+        grabCursor:true,
+        loop: true,
+        mousewheelControl: true
+    });
+    </script>
+</body>
+</html>
