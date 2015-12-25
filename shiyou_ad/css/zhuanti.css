@@ -10,9 +10,6 @@ html, body {
     }
     body {
         background: #eee;
-        /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
-        /*font-size: 14px;*/
-        /*color:#000;*/
         margin: 0;
         padding: 0;
     }
@@ -27,8 +24,8 @@ html, body {
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
+        /*display: -webkit-flex;
+        display: flex;*/
         /*-webkit-box-pack: center;
         -ms-flex-pack: center;
         -webkit-justify-content: center;
@@ -55,19 +52,16 @@ html, body {
 	position: relative; 
 }
 .p11{
-	width: 730px;
-	height: 200px;
-	padding-left: 54px;
-	padding-top: 30px;
+	padding: 30px 44px;
 	position: absolute;
 	left:34px;
 	top:100px;
-
+	max-width: 730px;
 	background-color:#6a005f;
 	opacity:0.6;
 	z-index: 10;
 	font-size: 34px;
-	font-family:  'Microsoft YaHei';
+	font-family:"Microsoft YaHei";
 	line-height: 58px;
 	color: white;
 }
@@ -84,21 +78,25 @@ html, body {
 	font-family: "Microsoft YaHei"
 }
 .img1{
-	margin-left: 520px;
+	position: absolute;
+	right: 0;
+}
+.img1,.img2,.img3{
+	height: 100%;
 }
 .p21{
-	width: 720px;
-	height: 270px;
 	padding-left: 24px;
+	padding-right: 24px;
 	padding-top: 27px;
 	position: absolute;
-	left: 570px;
+	right: 34px;
 	top: 100px;
 
 	background-color: #002e73;
 	opacity: 0.6;
 	font-family: "Microsoft YaHei";
 	font-size: 25px;
+	line-height: 45px;
 	color:white;
 }
 .p22{
@@ -113,6 +111,9 @@ html, body {
 	line-height: 40px;
 	font-family: "Microsoft YaHei";
 }
+.p22 p{
+	font-style: italic;
+}
 .p31{
 	width: 560px;
 	height: 482px;
@@ -122,16 +123,27 @@ html, body {
 
 	background-color: #fff;
 	opacity: 0.6;
-	color:#4f4f4f;
+	color:#4b2865;
 	font-family: "Microsoft YaHei";
 	font-size: 25px;
 	line-height: 40px;
 	text-align: center;
 }
 .p32{
-	height: 400px;
-	width: 661px;
 	position: absolute;
 	right: 50px;
-	top: 50px;
+	top: 100px;
+	font-family: "Microsoft YaHei";
+	font-size: 25px;
+	line-height: 40px;
+}
+
+#page .swiper-pagination-bullet{
+	width: 10px;
+	height: 10px;
+}
+#img4{
+	position: absolute;
+    bottom: 100px;
+    right: 0px;
 }
